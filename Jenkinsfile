@@ -3,6 +3,9 @@
 // A DECLARATIVE PIPELINE
 
 pipeline {	
+
+	agent any
+
 	environment {
 		dockerHome = tool 'myDocker'
 		mavenHome = tool 'myMaven'
