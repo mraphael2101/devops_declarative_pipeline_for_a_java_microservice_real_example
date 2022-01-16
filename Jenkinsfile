@@ -19,7 +19,7 @@ pipeline {
 				// Example shell scripts in the Groovy file
 				sh 'mvn --version'
 				sh 'docker version'
-				sh 'java --version'
+				sh 'java -version'
 				echo "Build"
 				echo "PATH - $PATH"
 				echo "BUILD_NUMBER - $env.BUILD_NUMBER"
